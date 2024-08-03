@@ -1,0 +1,42 @@
+.footer {
+    background-color: rgba(114, 114, 243, 0.5); 
+    color: white;
+    padding: 1rem 2rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    transition: color 0.2s;
+  }
+  
+  .footer-nav a:hover {
+    color: #ddd;
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(114, 114, 243, 0.5); /* Adjust the transparency */
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(0);
+    z-index: 1000;
+  }
+  
+  .footer.hidden {
+    transform: translateY(100%);
+  }

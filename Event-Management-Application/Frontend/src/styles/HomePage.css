@@ -1,0 +1,76 @@
+.homepage {
+  position: relative;
+  padding: 0;
+  margin-bottom: -100px;
+  background-color: white;
+}
+
+.navbar {
+  position: fixed; /* Keep it fixed at the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it stays above other elements */
+}
+
+.homepage-banner {
+  width: 100%; 
+  height: auto;
+  display: block;
+  top: 0;
+  left: 0;
+  margin-top: -60px;
+  z-index: 0; /* Lower z-index to place it behind the navbar */
+}
+
+.events-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  
+}
+
+.event-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.event-image {
+  width: 100%; /* Adjust to fit container */
+  height: 200px; /* Maintain aspect ratio */
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.event-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.event-actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.event-actions button img {
+  width: 30px;
+  height: 30px;
+}

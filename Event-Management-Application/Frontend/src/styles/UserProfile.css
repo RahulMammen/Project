@@ -1,0 +1,61 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./src/assets/one.jpg'); 
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .profile-box {
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(50px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px; 
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    max-width: 1500px;
+    width: 100%;
+    min-height: 300px;
+  }
+  
+  .profile-pic {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    margin-bottom: 20px;
+    object-fit: cover; 
+    border: 2px solid #fff; 
+  }
+  
+  .edit-button {
+    background-color: white; 
+    color: black; 
+    padding: 10px 20px; 
+    margin-top: 10px;
+    border: none; 
+    border-radius: 10px; 
+    cursor: pointer; 
+  }
+  
+  .edit-button:hover {
+    background-color: #f0f0f0; 
+  }
+  
